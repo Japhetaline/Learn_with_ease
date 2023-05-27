@@ -36,12 +36,9 @@ button{
     font-size: 30px;
     margin-top: 5px;
     color: #FFF;
+    padding: 10px 30px;
 }
 
-/* a{
-    color: #FFF;
-    padding: 0 1rem;
-} */
 
 /* Media Queries for Mobile Devices */
 
@@ -59,12 +56,21 @@ button{
     }
 
     img {
-        max-width: 100%;
-        height: auto;
+        max-width: 90%;
+        height: 40%;
         border-radius: 10px;
     }
 
     button {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 474px) {
+    img{
+        width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    margin-top: 5px;
     }
 }

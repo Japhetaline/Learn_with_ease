@@ -26,19 +26,35 @@ img{
     height: 20%;
     border-radius: 15px;
     margin-top: 5px;
+    margin-buttom: 20px;
 }
 
-button{
+/* .button{
     background-color: rgb(0, 51, 102);
     font-family: sans-serif;
     border: 2px solid #FFF;
     border-radius: 15px;
+    margin-top: 15px;
     font-size: 30px;
-    margin-top: 5px;
     color: #FFF;
-    padding: 10px 30px;
+    padding: 5px 20px;
+} */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 51, 102);
+    color: #FFF;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
 }
 
+.button:hover {
+    background-color: blue;
+}
 
 /* Media Queries for Mobile Devices */
 
@@ -61,7 +77,7 @@ button{
         border-radius: 10px;
     }
 
-    button {
+    .button {
         font-size: 20px;
     }
 }
@@ -71,6 +87,5 @@ button{
         width: 80%;
     height: 40%;
     border-radius: 10px;
-    margin-top: 5px;
     }
 }
